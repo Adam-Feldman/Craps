@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css_craps.css">
+    <!--this is the linked css file that gives some paramaters(bckgrng color, p font color) to the HTML-->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craps</title>
+    <!--This is what shows in the browser-->
+    <script src="function playcraps().js"></script>
+    <!--randomly rolls the dice, does the math, and gives results-->
+
+
+    <script style="text/javascript">
+        alert("Time to start playing Craps")
+    </script>
+    <!--Initial alert to start playing craps-->
+
+    <p style="text-align:center" ;>
+        <img " src=" UAT_Shield_Logo.png" alt="">
+        <!--UAT logo displayed at the top-->
+    </p>
+
+    <p style="text-align: center;">
+        <!--This is the casino name-->
+        UAT Casino
+    </p>
+    <p style="text-align: center;" ;">
+
+        <img src="Dice 2.jpg" alt="">
+        <!--This is the picture of the craps table-->
+    </p>
+
+
+
+</head>
+
+<body style="font-size: xx-large;text-align: center;">
+    <p style="font-size: 48px;">
+        UAT Casino-Come test your luck with the best odds in town!
+    </p>
+    <!--This is a paragraph with a message from the casino-->
+    <script>
+        document.write("Craps")
+    </script> <br>
+    <!--this is a method to write a string of text.-->
+
+    <button style="color: green;">
+        Start
+    </button>
+    <!--start button, does nothing-->
+    <button style="color: red;">
+        Stop
+    </button>
+    <!--stop button, does nothing-->
+    <br>
+    <br>
+
+    <button onclick="playcraps()">
+        Play Craps
+    </button>
+    <!--craps roll dice button on click-->
+
+    <h4>die 1 result</h4>
+    <!--header labeled die 1 results-->
+    <p id="die1Dis">Die 1</p>
+    <!--id that shows the result of the dice 1 roll-->
+    <h4>die 2 result</h4>
+    <!--header labeled die 2 results-->
+    <p id="die2Dis">Die 2</p>
+    <!--id that shows the result of the dice 2 roll-->
+    <h4>sum result</h4>
+    <!--header labeled sum result-->
+    <p id="sumDis">Sum result</p>
+    <!--id that shows the sum of die 1 + die 2-->
+    <h4>Win, Lose, or Draw </h4>
+    <!--header labeled Win, Lose, or Draw, i know its redundant-->
+    <p id="resultDis">Result</p>
+    <!--id that displays if you Win, Lose, or Draw-->
+
+
+
+</body>
+
+
+
+
+
+</html>
